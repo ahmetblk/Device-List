@@ -1,0 +1,1561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		029808596849E408DCB84BB9 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F2E0908D44C3E3016D05A1 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0409A8C15B6971C083D28574 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 34318AAC5C3521391F99FA0C /* AFHTTPRequestOperation.m */; };
+		052F2E52E0A1EA2EF4626B1F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 184C8EBBAD2D5053C1F72214 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07782D47F4FDE12CD111B826 /* MTLValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5D2CCE468D1429DBA3418DF /* MTLValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07E9182EE5042521F25FD5E1 /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F3FD9D681DB598BD739464F1 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08AED3950D77252098C6032F /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 4748FE990F3A570C8BEC5DCB /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A00568F96329E25ED483DF7 /* Pods-TurkcellDeviceList-FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 049BD43C6B852B86FF9E0E45 /* Pods-TurkcellDeviceList-FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CFAF02CE5CD0361724FD467 /* NSValueTransformer+MTLInversionAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC452B5911438B230F82D84 /* NSValueTransformer+MTLInversionAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F829209D1C0F53182968E67 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DCD9D0A95B5BEB8FAAAA09 /* UIView+FLKAutoLayout.m */; };
+		0FA51A855785F340170778F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058234ADF8391EF6F60A57F /* Foundation.framework */; };
+		134FF650865CF419A616E7BF /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B657ACF5A76E6A7BE69E4 /* UIWebView+AFNetworking.m */; };
+		152606618BFE673919CBD416 /* MTLValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 190BB06C0251656936A812F1 /* MTLValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17D63ED17D1F89D6C197EE89 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = AF745F1E422D10C4A492FAA3 /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B5FE0263AABB03EC3145A1 /* NSError+MTLModelException.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DCEFF0FA9E495E4AA6E50A0 /* NSError+MTLModelException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F7728B2917C4D1DC9017ECD /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = CB59EDCD1A0D1CA4C01742AB /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FEFFD15D2D40DC3A87C0788 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239B5FFF5E643FCEAB33C890 /* SwiftyJSON.swift */; };
+		23BED9F184D407C6987D8F2D /* NSObject+MTLComparisonAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C12B9F26E3F96827B9B26 /* NSObject+MTLComparisonAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		255E7E534CB46F086E40B311 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE834F1EA0D74B09A1FC18B6 /* AFHTTPRequestOperationManager.m */; };
+		26A65598485ED9535ACC6B8F /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B1EAA7CBBB8DCB998417543 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		295E71F1A370C5D26094E5BC /* NSObject+MTLComparisonAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EE8AE9BF04313AD6420FC05F /* NSObject+MTLComparisonAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A99427BC90472CD40551D0E /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D694F3EE3851594DCE25D27 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1159C13E4ADC92F10AEF30 /* ORTagBasedAutoStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5F9639FB75082746BF0AFC /* ORTagBasedAutoStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F1133DD270CA7880E3088DF /* MTLModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E0015D3BBFDD7C2A0599010 /* MTLModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		314616B215FA0128F930BC4F /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AD94CB1AA8768329CA651FB /* UIProgressView+AFNetworking.m */; };
+		3228CB0AC0DFF25F887A5E7A /* ORSplitStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8EEA6D06BECE69EC4F8DFE /* ORSplitStackView.m */; };
+		3458D9D3F5C47C5522956FB9 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 22ED872C24560906AFD95591 /* EXTScope.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		383707EFB6A1584E4FF08190 /* MTLModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9379F82B16EC505EF3689ECB /* MTLModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3A23F6120BE9EF84981F85E2 /* NSArray+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B034AB690DA3B4E7D9F65C8F /* NSArray+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B6BD62BADE6DD41F326F4FF /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB85989355B103D9E3367F91 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		413DD826862D0BCC25AC25E5 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABCBB6EE3BF70E76DD65B1E /* UIRefreshControl+AFNetworking.m */; };
+		46931945CC8500B5A46AB11A /* MTLReflection.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1FF5A9BFB512CDFC1F21F0 /* MTLReflection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E916B3686EA7005F296D8CC /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CC5D1173484C5B538B51FAB2 /* AFNetworkActivityIndicatorManager.m */; };
+		50265902BADE9155ADDFF25D /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F07C184B1E025DD4D9EE80F /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56D9685364A573597C381D4D /* Pods-TurkcellDeviceList-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDA69F84A74D85F83C99222 /* Pods-TurkcellDeviceList-AFNetworking-dummy.m */; };
+		5C7A01525E37E4083A534C40 /* MTLModel+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B86A63CC92FAC55CA408CF1B /* MTLModel+NSCoding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5E310D609757224E8188EC4F /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8567367E4CC3E78C547BB855 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65F2E33B319811BD0932F066 /* ORStackScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E76935B78FFDFB7D44EFF /* ORStackScrollView.m */; };
+		679B1001878D08509B8ACF57 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFA3EABFDB8276625A0E965 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		67FC412CB9E309DB4F1FFBC7 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = 5987343ECF11CE416CB2F68E /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68B07D6BC05F7ADB488905B7 /* NSDictionary+MTLManipulationAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1C82C10182E9078DC9B311 /* NSDictionary+MTLManipulationAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6994C39A1FDE44811E394253 /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EB08C63C151D5CDCEF8488FD /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E50BA816D3D9B576FA28D82 /* Pods-TurkcellDeviceList-AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 893AF2013BCED13839DE3A03 /* Pods-TurkcellDeviceList-AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA7C61CA3C2229CCE7B4887 /* Pods-TurkcellDeviceList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8971062BD3618C6159BC6E83 /* Pods-TurkcellDeviceList-dummy.m */; };
+		707E18C9C493A4D12EB84308 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058234ADF8391EF6F60A57F /* Foundation.framework */; };
+		749AC7416D46346BAB02E10F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D5DCC55DCD2AA7C2580658B9 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		788583C033067271B151003F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C730C4B303C71C7B68E69A1B /* CoreGraphics.framework */; };
+		798149A23DBB4186617D10C0 /* ORStackView+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B23701AFAEC10E5B9A4901 /* ORStackView+Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7A5A0288F1F95405CC9AB36D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD697F670DFEAAA370FCC1CB /* SystemConfiguration.framework */; };
+		7ABF0A8281B7ACC98D05AEDA /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 99690E5C98143BA089206774 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACF3C5DB1E4C36F2EB4D2C1 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DE359427DA21D0E9A4CB9C /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DDA19558753E4B4DF817953 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C0839D290C93ED0EA57D22AA /* AFURLResponseSerialization.m */; };
+		828E9F15E1918C19ABBB750A /* MTLReflection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC03C82903499F7EFD6B041 /* MTLReflection.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8709CE327EA6B977D32DF31D /* Pods-TurkcellDeviceList-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B002D7368569C8B25CF3BB74 /* Pods-TurkcellDeviceList-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88C6DA97532B230D4B31803E /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B38686C087E68C8EB14AF /* UIView+FLKAutoLayoutPredicate.m */; };
+		89B9DD51274EF3990A0FF5CC /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A098B8A075122C2473EEAC25 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE1F6F856393E3C153FC7E2 /* MTLJSONAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E223992B020B20B4F815826 /* MTLJSONAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8EF97918FD659CF1E3BF503C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3ACED4FA3AEBBDA4C6125E1 /* MobileCoreServices.framework */; };
+		90870B83B5E2E5BCCBBA2C55 /* NSDictionary+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 865D932EAA0CB05E327BBAF0 /* NSDictionary+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		90F5E3013A8417CA18C0FE1A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E001576C396EDFBD39DC450C /* Security.framework */; };
+		917B1F959B19F35F03706B77 /* Pods-TurkcellDeviceList-SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C04867EA262EB3F3B0480 /* Pods-TurkcellDeviceList-SwiftyJSON-dummy.m */; };
+		9218B9BBCFF8452FF52A698E /* ORStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8A8819A4224C0AC6444DF8 /* ORStackView.m */; };
+		9360DE1798C5295D372EB527 /* Pods-TurkcellDeviceList-FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 477FCA3BDB35029E46409E68 /* Pods-TurkcellDeviceList-FLKAutoLayout-dummy.m */; };
+		9470E0BEFFCCBA6915A12946 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 391128F0A996C5C345DECFF3 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96E268B6EE854EABE1350FE6 /* Pods-TurkcellDeviceList-Mantle-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0865E93AFDA9BA681C18DD32 /* Pods-TurkcellDeviceList-Mantle-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C409DB05346E706426CA12E /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F64D521B95117AACE2318 /* AFURLSessionManager.m */; };
+		9D5A0A11E2191791140D4D9B /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB255D3CCAC1004AA1B4F9 /* FLKAutoLayoutPredicateList.m */; };
+		9D967128C1CFACAF290425E4 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 91589EB6A0F89E4EFC9507AD /* UIAlertView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DBC0305CB7C0BB030241221 /* Pods-TurkcellDeviceList-ORStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AD198A6E9E01589CA489AA /* Pods-TurkcellDeviceList-ORStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E901077A1E9850845EFFB3D /* MTLModel+NSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = E2377FBE3C5A0BFB61406750 /* MTLModel+NSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0154EFB8995A708EB7B4D5A /* Pods-TurkcellDeviceList-ORStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7FDE21969E606DCDA64F70 /* Pods-TurkcellDeviceList-ORStackView-dummy.m */; };
+		A2C5D9966E2858756AAF6EB6 /* Mantle.h in Headers */ = {isa = PBXBuildFile; fileRef = 7149EDAC9D872D88039A4363 /* Mantle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3AE01FD2A47B26B8F67E1CF /* NSError+MTLModelException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E74B1BBC189F324B3CF6596 /* NSError+MTLModelException.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A87D4F17BE5A07584D848579 /* ORStackScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = B276F922325940B9AE20062F /* ORStackScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9B4F2D8E51FAF3A627F7A01 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4E571D395BD20B1A95D30C6 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA395FC324A49E0CD0F31A9A /* MTLJSONAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = A01E71884D45218CEC2431C8 /* MTLJSONAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA9BFE497F0C90B4AFC3B04B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058234ADF8391EF6F60A57F /* Foundation.framework */; };
+		AC935CD0D2CFEED8266730C7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = A4513F05E8C29AA814888E6A /* AFURLRequestSerialization.m */; };
+		AD3A4362A191DDAF23B6190A /* ORStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD47D33F072AEF9626A4AF6 /* ORStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD866D620B82E8C9A24425E6 /* ORSplitStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3DE11026F003C05C5A44BA /* ORSplitStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0A02692B43DD9CDCD3C4D73 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE1CA996B990FDABABCF8E3 /* AFNetworkReachabilityManager.m */; };
+		B307FCFB4FF13084DA558AE5 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A9F87079C00D17622EA900 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3B318A6C4C0AEDEB5B81C0B /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A89F60EBDE9DD3E0D2D2F66 /* UIActivityIndicatorView+AFNetworking.m */; };
+		B5E070F646A021FFB649354A /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A990DDF097D9003549E8996E /* AFHTTPSessionManager.m */; };
+		B901D124C4C794ADF1424576 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3834509E3C0C30F8A729559A /* UIAlertView+AFNetworking.m */; };
+		BA4705C9EA9979A2E0C165B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058234ADF8391EF6F60A57F /* Foundation.framework */; };
+		BC487973FFFF31B8F3B7B066 /* NSValueTransformer+MTLInversionAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E828DC4ABC0258D96E6DFE /* NSValueTransformer+MTLInversionAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BD8A59082E35197BAC8A709A /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FC649B4048CE1E4E307D56 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF3CD024A6AAFB3D6DE59475 /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA37DBB11B38B5A6A3A7464 /* FLKAutoLayout.framework */; };
+		C064341B0EF544652DFAEAB9 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F688346543979C23DA801D /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		C5FA0943F6F91F47884E545B /* MTLManagedObjectAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 946EB871E7161497A81EACA6 /* MTLManagedObjectAdapter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C7F01F5FE69BC7F1204E45B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058234ADF8391EF6F60A57F /* Foundation.framework */; };
+		CAA9BD088E7475C46CFEA477 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B78469D4AA93C13BE71A1E8 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D120161FB84797E4EF5ADBEC /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = BA40C174179339B63FDE2970 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2F89B0A254BD7BF8DBED62B /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7C6580611AF2486C26444E /* UIImageView+AFNetworking.m */; };
+		D475390118E10C643253693E /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E231D6E579568CCEF1B3A212 /* UIButton+AFNetworking.m */; };
+		DA63860493B89F74E0546EE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C058234ADF8391EF6F60A57F /* Foundation.framework */; };
+		DB938B4C5027387D4512E777 /* MTLManagedObjectAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = E6ADA111EBC3D7363307AE26 /* MTLManagedObjectAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD48DD107448DE23C75B7ADD /* Pods-TurkcellDeviceList-SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3374548BF5BB6185C0053C73 /* Pods-TurkcellDeviceList-SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEE0AB7BE2ED84B3BAAFA3D1 /* ORStackView+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B8FE45217C41C7D69B3E4D /* ORStackView+Private.m */; };
+		DF3B5D1896D7F811883A640A /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 988C7B72FFC2BAA9E16BB9BD /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E04A7CCFFA2CD2754C095A02 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C9E4319E7561BA593B73A65 /* AFURLConnectionOperation.m */; };
+		E430B5C721C92375B09DADD2 /* NSArray+MTLManipulationAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 656631FDD543DF0F1196260C /* NSArray+MTLManipulationAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E9806F0F688117D6CA18B5B5 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52E3003F63753B0D920F457 /* AFSecurityPolicy.m */; };
+		ECBBCC5C45EE7BBFCD4082A7 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C9EB04036AF34590732A9011 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED341859177CB9139C622580 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8585EFAF7037FB7338C00716 /* EXTRuntimeExtensions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EF02B4C1EAFB9DB362875536 /* ORTagBasedAutoStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 065DF9B38769A026E9E16C6A /* ORTagBasedAutoStackView.m */; };
+		F44C4C65E9985DFDE4D43862 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BB30836D1CBBC54787CBB052 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4AF90E64CEDEFBF266DE9B0 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAACBEDFC4C368BA6FEDE59 /* UIView+FLKAutoLayoutDebug.m */; };
+		FC0B7019B6E32381C2302746 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = E45933B40C32F270C9C5A7DE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD3DCDC70D29EDCCC723EFE0 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F708E3479CAD2E98C7FD0AE /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFD30C0B240287643ED3E85 /* Pods-TurkcellDeviceList-Mantle-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07714DEC32645AFB5C8DCF3 /* Pods-TurkcellDeviceList-Mantle-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		214E129200B249033ABF9853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D915560502F1F7334C5DAAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A473E094163A80E110D6E1B5;
+			remoteInfo = "Pods-TurkcellDeviceList-FLKAutoLayout";
+		};
+		671F76D57737C9E1B1921E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D915560502F1F7334C5DAAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5191471490ECB0D7B5143E4;
+			remoteInfo = "Pods-TurkcellDeviceList-AFNetworking";
+		};
+		A767F558D9D51D8714554B5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D915560502F1F7334C5DAAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD7E9348A31B5FB8058BD5C;
+			remoteInfo = "Pods-TurkcellDeviceList-ORStackView";
+		};
+		AF4135481091081B82AF723D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D915560502F1F7334C5DAAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8330F6E6BCD2CA690C7FA8;
+			remoteInfo = "Pods-TurkcellDeviceList-Mantle";
+		};
+		DE44B8F3E747A1079093F970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D915560502F1F7334C5DAAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A9ECC275610063BE6A61BED;
+			remoteInfo = "Pods-TurkcellDeviceList-SwiftyJSON";
+		};
+		E53B6D453A7383AD7E8AF5AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D915560502F1F7334C5DAAF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A473E094163A80E110D6E1B5;
+			remoteInfo = "Pods-TurkcellDeviceList-FLKAutoLayout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DE359427DA21D0E9A4CB9C /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		049BD43C6B852B86FF9E0E45 /* Pods-TurkcellDeviceList-FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		065DF9B38769A026E9E16C6A /* ORTagBasedAutoStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORTagBasedAutoStackView.m; path = Classes/ios/ORTagBasedAutoStackView.m; sourceTree = "<group>"; };
+		0665161342AABBA52B744C4F /* Pods-TurkcellDeviceList-FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-FLKAutoLayout.xcconfig"; sourceTree = "<group>"; };
+		0865E93AFDA9BA681C18DD32 /* Pods-TurkcellDeviceList-Mantle-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-Mantle-umbrella.h"; sourceTree = "<group>"; };
+		0B1EAA7CBBB8DCB998417543 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		0E2E76935B78FFDFB7D44EFF /* ORStackScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackScrollView.m; path = Classes/ios/ORStackScrollView.m; sourceTree = "<group>"; };
+		0F56806F74BEA0FEDEAFD544 /* Pods-TurkcellDeviceList-SwiftyJSON-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-SwiftyJSON-Private.xcconfig"; sourceTree = "<group>"; };
+		16A9F87079C00D17622EA900 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		184C8EBBAD2D5053C1F72214 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		190BB06C0251656936A812F1 /* MTLValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLValueTransformer.m; path = Mantle/MTLValueTransformer.m; sourceTree = "<group>"; };
+		221F64D521B95117AACE2318 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		22ED872C24560906AFD95591 /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTScope.m; path = Mantle/extobjc/EXTScope.m; sourceTree = "<group>"; };
+		239B5FFF5E643FCEAB33C890 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		24743D880725EDE5D2299425 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CBC8779BDD288E0D8121AF /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		24CE52AD81BAF108DCAEFA55 /* Pods-TurkcellDeviceList-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TurkcellDeviceList-resources.sh"; sourceTree = "<group>"; };
+		2547168528CA2BA94EA1227A /* Pods-TurkcellDeviceList-FLKAutoLayout-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-FLKAutoLayout-Private.xcconfig"; sourceTree = "<group>"; };
+		26F2E0908D44C3E3016D05A1 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		279E915BC19EEB07F75BB64E /* Pods_TurkcellDeviceList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TurkcellDeviceList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2938179CDB5DEBEDF35C09D9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6496E012683C22C95B1C22 /* Pods-TurkcellDeviceList-ORStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TurkcellDeviceList-ORStackView.modulemap"; sourceTree = "<group>"; };
+		2B3DE11026F003C05C5A44BA /* ORSplitStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORSplitStackView.h; path = Classes/ios/ORSplitStackView.h; sourceTree = "<group>"; };
+		2D6F03AB7E0EA0E189FD3494 /* Pods-TurkcellDeviceList-Mantle.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-Mantle.xcconfig"; sourceTree = "<group>"; };
+		2DCEFF0FA9E495E4AA6E50A0 /* NSError+MTLModelException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+MTLModelException.h"; path = "Mantle/NSError+MTLModelException.h"; sourceTree = "<group>"; };
+		30F5BA624EF5D4250CA8CB8C /* Pods-TurkcellDeviceList-FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TurkcellDeviceList-FLKAutoLayout.modulemap"; sourceTree = "<group>"; };
+		3374548BF5BB6185C0053C73 /* Pods-TurkcellDeviceList-SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		33E625701E8F21BF93B47DCE /* Pods-TurkcellDeviceList-Mantle.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TurkcellDeviceList-Mantle.modulemap"; sourceTree = "<group>"; };
+		34318AAC5C3521391F99FA0C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		355C04867EA262EB3F3B0480 /* Pods-TurkcellDeviceList-SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkcellDeviceList-SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		36B8FE45217C41C7D69B3E4D /* ORStackView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ORStackView+Private.m"; path = "Classes/ios/private/ORStackView+Private.m"; sourceTree = "<group>"; };
+		3834509E3C0C30F8A729559A /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		38F669C890C07F585BF79843 /* Pods-TurkcellDeviceList-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-environment.h"; sourceTree = "<group>"; };
+		391128F0A996C5C345DECFF3 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = metamacros.h; path = Mantle/extobjc/metamacros.h; sourceTree = "<group>"; };
+		39E828DC4ABC0258D96E6DFE /* NSValueTransformer+MTLInversionAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLInversionAdditions.m"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.m"; sourceTree = "<group>"; };
+		3A89F60EBDE9DD3E0D2D2F66 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		3B518C42374C368F1B168FF4 /* Pods-TurkcellDeviceList-Mantle-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-Mantle-prefix.pch"; sourceTree = "<group>"; };
+		3B7C6580611AF2486C26444E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		3B909CA0FBFC9E004C8D9ED2 /* Pods-TurkcellDeviceList-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		3C9E4319E7561BA593B73A65 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		40860EB30D6B87C553FBB1E7 /* Pods-TurkcellDeviceList-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TurkcellDeviceList-acknowledgements.markdown"; sourceTree = "<group>"; };
+		445B657ACF5A76E6A7BE69E4 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		45AD198A6E9E01589CA489AA /* Pods-TurkcellDeviceList-ORStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-ORStackView-umbrella.h"; sourceTree = "<group>"; };
+		46735778F3BD4B38EE88DC9C /* Pods-TurkcellDeviceList-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		4748FE990F3A570C8BEC5DCB /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTKeyPathCoding.h; path = Mantle/extobjc/EXTKeyPathCoding.h; sourceTree = "<group>"; };
+		477FCA3BDB35029E46409E68 /* Pods-TurkcellDeviceList-FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkcellDeviceList-FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
+		4BBB255D3CCAC1004AA1B4F9 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
+		520B1D03CF8B5E9CEF86CE16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DCD9D0A95B5BEB8FAAAA09 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		5987343ECF11CE416CB2F68E /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		59B04B4C888031CF1BD3597A /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A3F4F5C397E04CF9A6BF2E0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AD94CB1AA8768329CA651FB /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		60E63E86B5EF983944E6CE16 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6286D830211A87CC64B1EA67 /* Pods-TurkcellDeviceList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TurkcellDeviceList.modulemap"; sourceTree = "<group>"; };
+		656631FDD543DF0F1196260C /* NSArray+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MTLManipulationAdditions.m"; path = "Mantle/NSArray+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		69D500E0F1AE0A81F7FFEAC5 /* Pods-TurkcellDeviceList-FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
+		6AD47D33F072AEF9626A4AF6 /* ORStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackView.h; path = Classes/ios/ORStackView.h; sourceTree = "<group>"; };
+		6B78469D4AA93C13BE71A1E8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		6D42F3A90F5797BC20C26640 /* Pods-TurkcellDeviceList-SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		6D694F3EE3851594DCE25D27 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		6E5F9639FB75082746BF0AFC /* ORTagBasedAutoStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORTagBasedAutoStackView.h; path = Classes/ios/ORTagBasedAutoStackView.h; sourceTree = "<group>"; };
+		6F07C184B1E025DD4D9EE80F /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.h"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.h"; sourceTree = "<group>"; };
+		7149EDAC9D872D88039A4363 /* Mantle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantle.h; path = Mantle/Mantle.h; sourceTree = "<group>"; };
+		7412D2D48872B315299896CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ABCBB6EE3BF70E76DD65B1E /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		7BB7D6606C70A39C88BFF9BA /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E74B1BBC189F324B3CF6596 /* NSError+MTLModelException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+MTLModelException.m"; path = "Mantle/NSError+MTLModelException.m"; sourceTree = "<group>"; };
+		7E8A8819A4224C0AC6444DF8 /* ORStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORStackView.m; path = Classes/ios/ORStackView.m; sourceTree = "<group>"; };
+		7F8EEA6D06BECE69EC4F8DFE /* ORSplitStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ORSplitStackView.m; path = Classes/ios/ORSplitStackView.m; sourceTree = "<group>"; };
+		83481DD06C1A6FFE18FEEA9C /* Pods-TurkcellDeviceList-ORStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-ORStackView.xcconfig"; sourceTree = "<group>"; };
+		8567367E4CC3E78C547BB855 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		8585EFAF7037FB7338C00716 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXTRuntimeExtensions.m; path = Mantle/extobjc/EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		865D932EAA0CB05E327BBAF0 /* NSDictionary+MTLManipulationAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MTLManipulationAdditions.m"; path = "Mantle/NSDictionary+MTLManipulationAdditions.m"; sourceTree = "<group>"; };
+		86FC649B4048CE1E4E307D56 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		893AF2013BCED13839DE3A03 /* Pods-TurkcellDeviceList-AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		8971062BD3618C6159BC6E83 /* Pods-TurkcellDeviceList-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkcellDeviceList-dummy.m"; sourceTree = "<group>"; };
+		8AAACBEDFC4C368BA6FEDE59 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		8AC02C49D98622F4E5C0C2AF /* ORStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ORStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC452B5911438B230F82D84 /* NSValueTransformer+MTLInversionAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSValueTransformer+MTLInversionAdditions.h"; path = "Mantle/NSValueTransformer+MTLInversionAdditions.h"; sourceTree = "<group>"; };
+		8E0015D3BBFDD7C2A0599010 /* MTLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLModel.h; path = Mantle/MTLModel.h; sourceTree = "<group>"; };
+		8E223992B020B20B4F815826 /* MTLJSONAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLJSONAdapter.m; path = Mantle/MTLJSONAdapter.m; sourceTree = "<group>"; };
+		8EA37DBB11B38B5A6A3A7464 /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F708E3479CAD2E98C7FD0AE /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		8FC03C82903499F7EFD6B041 /* MTLReflection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLReflection.m; path = Mantle/MTLReflection.m; sourceTree = "<group>"; };
+		91589EB6A0F89E4EFC9507AD /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		91831BB458B82F2E0C8C9040 /* Pods-TurkcellDeviceList-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		91E696E91DA14BE0DF2EF642 /* Pods-TurkcellDeviceList-ORStackView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-ORStackView-Private.xcconfig"; sourceTree = "<group>"; };
+		9379F82B16EC505EF3689ECB /* MTLModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLModel.m; path = Mantle/MTLModel.m; sourceTree = "<group>"; };
+		946EB871E7161497A81EACA6 /* MTLManagedObjectAdapter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTLManagedObjectAdapter.m; path = Mantle/MTLManagedObjectAdapter.m; sourceTree = "<group>"; };
+		988C7B72FFC2BAA9E16BB9BD /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		99690E5C98143BA089206774 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		9C1FF5A9BFB512CDFC1F21F0 /* MTLReflection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLReflection.h; path = Mantle/MTLReflection.h; sourceTree = "<group>"; };
+		A01E71884D45218CEC2431C8 /* MTLJSONAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLJSONAdapter.h; path = Mantle/MTLJSONAdapter.h; sourceTree = "<group>"; };
+		A098B8A075122C2473EEAC25 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		A4513F05E8C29AA814888E6A /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		A4E571D395BD20B1A95D30C6 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		A5D2CCE468D1429DBA3418DF /* MTLValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLValueTransformer.h; path = Mantle/MTLValueTransformer.h; sourceTree = "<group>"; };
+		A96DB9EF1CBE0B6574729A5B /* Pods-TurkcellDeviceList-SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-SwiftyJSON.xcconfig"; sourceTree = "<group>"; };
+		A990DDF097D9003549E8996E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AB85989355B103D9E3367F91 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		AF745F1E422D10C4A492FAA3 /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		B002D7368569C8B25CF3BB74 /* Pods-TurkcellDeviceList-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-umbrella.h"; sourceTree = "<group>"; };
+		B034AB690DA3B4E7D9F65C8F /* NSArray+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MTLManipulationAdditions.h"; path = "Mantle/NSArray+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		B07714DEC32645AFB5C8DCF3 /* Pods-TurkcellDeviceList-Mantle-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkcellDeviceList-Mantle-dummy.m"; sourceTree = "<group>"; };
+		B276F922325940B9AE20062F /* ORStackScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ORStackScrollView.h; path = Classes/ios/ORStackScrollView.h; sourceTree = "<group>"; };
+		B5B2DB3AFE975890352C07B7 /* Pods-TurkcellDeviceList-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TurkcellDeviceList-acknowledgements.plist"; sourceTree = "<group>"; };
+		B86A63CC92FAC55CA408CF1B /* MTLModel+NSCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MTLModel+NSCoding.m"; path = "Mantle/MTLModel+NSCoding.m"; sourceTree = "<group>"; };
+		BA40C174179339B63FDE2970 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTScope.h; path = Mantle/extobjc/EXTScope.h; sourceTree = "<group>"; };
+		BA6C12B9F26E3F96827B9B26 /* NSObject+MTLComparisonAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MTLComparisonAdditions.m"; path = "Mantle/NSObject+MTLComparisonAdditions.m"; sourceTree = "<group>"; };
+		BB30836D1CBBC54787CBB052 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		C058234ADF8391EF6F60A57F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C0839D290C93ED0EA57D22AA /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		C730C4B303C71C7B68E69A1B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C9EB04036AF34590732A9011 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		CB59EDCD1A0D1CA4C01742AB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		CC5D1173484C5B538B51FAB2 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		CE834F1EA0D74B09A1FC18B6 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		CEDA69F84A74D85F83C99222 /* Pods-TurkcellDeviceList-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkcellDeviceList-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		CF1C82C10182E9078DC9B311 /* NSDictionary+MTLManipulationAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MTLManipulationAdditions.h"; path = "Mantle/NSDictionary+MTLManipulationAdditions.h"; sourceTree = "<group>"; };
+		D5DCC55DCD2AA7C2580658B9 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		DE4B38686C087E68C8EB14AF /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		E001576C396EDFBD39DC450C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		E11E8A6492BC812692883F95 /* Pods-TurkcellDeviceList-ORStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TurkcellDeviceList-ORStackView-prefix.pch"; sourceTree = "<group>"; };
+		E214B120BA1AF003087B8DEF /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E231D6E579568CCEF1B3A212 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		E2377FBE3C5A0BFB61406750 /* MTLModel+NSCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MTLModel+NSCoding.h"; path = "Mantle/MTLModel+NSCoding.h"; sourceTree = "<group>"; };
+		E2FC243AB89892B03A7A1707 /* Pods-TurkcellDeviceList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList.release.xcconfig"; sourceTree = "<group>"; };
+		E3ACED4FA3AEBBDA4C6125E1 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		E45933B40C32F270C9C5A7DE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E52E3003F63753B0D920F457 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		E6ADA111EBC3D7363307AE26 /* MTLManagedObjectAdapter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTLManagedObjectAdapter.h; path = Mantle/MTLManagedObjectAdapter.h; sourceTree = "<group>"; };
+		EB08C63C151D5CDCEF8488FD /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXTRuntimeExtensions.h; path = Mantle/extobjc/EXTRuntimeExtensions.h; sourceTree = "<group>"; };
+		ECFA3EABFDB8276625A0E965 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSValueTransformer+MTLPredefinedTransformerAdditions.m"; path = "Mantle/NSValueTransformer+MTLPredefinedTransformerAdditions.m"; sourceTree = "<group>"; };
+		EE8AE9BF04313AD6420FC05F /* NSObject+MTLComparisonAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MTLComparisonAdditions.h"; path = "Mantle/NSObject+MTLComparisonAdditions.h"; sourceTree = "<group>"; };
+		F016903D0CD78726B40A7DB9 /* Pods-TurkcellDeviceList-SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TurkcellDeviceList-SwiftyJSON.modulemap"; sourceTree = "<group>"; };
+		F0F688346543979C23DA801D /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
+		F11332977DA6333D125C928A /* Mantle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mantle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3FD9D681DB598BD739464F1 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
+		F5B23701AFAEC10E5B9A4901 /* ORStackView+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ORStackView+Private.h"; path = "Classes/ios/private/ORStackView+Private.h"; sourceTree = "<group>"; };
+		FA521946D3059D9D69A4EA3A /* Pods-TurkcellDeviceList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7FDE21969E606DCDA64F70 /* Pods-TurkcellDeviceList-ORStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TurkcellDeviceList-ORStackView-dummy.m"; sourceTree = "<group>"; };
+		FD697F670DFEAAA370FCC1CB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		FD746C2128FF27B59E3F2F19 /* Pods-TurkcellDeviceList-Mantle-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TurkcellDeviceList-Mantle-Private.xcconfig"; sourceTree = "<group>"; };
+		FDCF76DF22031070C9CBF261 /* Pods-TurkcellDeviceList-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TurkcellDeviceList-frameworks.sh"; sourceTree = "<group>"; };
+		FDE1CA996B990FDABABCF8E3 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		FEB807A3CDCB515FC36266B8 /* Pods-TurkcellDeviceList-AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TurkcellDeviceList-AFNetworking.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EC92F30A249834A6DF086FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA4705C9EA9979A2E0C165B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C754E172956274DA6E52FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FA51A855785F340170778F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCC06BFC1543B331418EED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA63860493B89F74E0546EE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0A9E808905EB3941184F288 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3CD024A6AAFB3D6DE59475 /* FLKAutoLayout.framework in Frameworks */,
+				C7F01F5FE69BC7F1204E45B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99829184A5F27185EBCD098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788583C033067271B151003F /* CoreGraphics.framework in Frameworks */,
+				AA9BFE497F0C90B4AFC3B04B /* Foundation.framework in Frameworks */,
+				8EF97918FD659CF1E3BF503C /* MobileCoreServices.framework in Frameworks */,
+				90F5E3013A8417CA18C0FE1A /* Security.framework in Frameworks */,
+				7A5A0288F1F95405CC9AB36D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E25A666426A9D15D79F850AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707E18C9C493A4D12EB84308 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CB3345BDFE0AA6D44920A45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EA37DBB11B38B5A6A3A7464 /* FLKAutoLayout.framework */,
+				ED4888CC73F0C33B2DF6C34C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C27378C437E2C40D07A1E0F /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				CB59EDCD1A0D1CA4C01742AB /* AFURLRequestSerialization.h */,
+				A4513F05E8C29AA814888E6A /* AFURLRequestSerialization.m */,
+				E45933B40C32F270C9C5A7DE /* AFURLResponseSerialization.h */,
+				C0839D290C93ED0EA57D22AA /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		3CF706F6E28FF8C3D50C3AFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63CACD9748E9838881DEB773 /* AFNetworking */,
+				E509C8E97AFE03085E9270BC /* FLKAutoLayout */,
+				4CA13E4F220BE231B0E41D6F /* Mantle */,
+				C22D837108E6E8A7D670CC64 /* ORStackView */,
+				B5DA3078126A1BEBD6F8DA2C /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CA13E4F220BE231B0E41D6F /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				A01E71884D45218CEC2431C8 /* MTLJSONAdapter.h */,
+				8E223992B020B20B4F815826 /* MTLJSONAdapter.m */,
+				E6ADA111EBC3D7363307AE26 /* MTLManagedObjectAdapter.h */,
+				946EB871E7161497A81EACA6 /* MTLManagedObjectAdapter.m */,
+				8E0015D3BBFDD7C2A0599010 /* MTLModel.h */,
+				9379F82B16EC505EF3689ECB /* MTLModel.m */,
+				E2377FBE3C5A0BFB61406750 /* MTLModel+NSCoding.h */,
+				B86A63CC92FAC55CA408CF1B /* MTLModel+NSCoding.m */,
+				9C1FF5A9BFB512CDFC1F21F0 /* MTLReflection.h */,
+				8FC03C82903499F7EFD6B041 /* MTLReflection.m */,
+				A5D2CCE468D1429DBA3418DF /* MTLValueTransformer.h */,
+				190BB06C0251656936A812F1 /* MTLValueTransformer.m */,
+				7149EDAC9D872D88039A4363 /* Mantle.h */,
+				B034AB690DA3B4E7D9F65C8F /* NSArray+MTLManipulationAdditions.h */,
+				656631FDD543DF0F1196260C /* NSArray+MTLManipulationAdditions.m */,
+				CF1C82C10182E9078DC9B311 /* NSDictionary+MTLManipulationAdditions.h */,
+				865D932EAA0CB05E327BBAF0 /* NSDictionary+MTLManipulationAdditions.m */,
+				2DCEFF0FA9E495E4AA6E50A0 /* NSError+MTLModelException.h */,
+				7E74B1BBC189F324B3CF6596 /* NSError+MTLModelException.m */,
+				EE8AE9BF04313AD6420FC05F /* NSObject+MTLComparisonAdditions.h */,
+				BA6C12B9F26E3F96827B9B26 /* NSObject+MTLComparisonAdditions.m */,
+				8CC452B5911438B230F82D84 /* NSValueTransformer+MTLInversionAdditions.h */,
+				39E828DC4ABC0258D96E6DFE /* NSValueTransformer+MTLInversionAdditions.m */,
+				6F07C184B1E025DD4D9EE80F /* NSValueTransformer+MTLPredefinedTransformerAdditions.h */,
+				ECFA3EABFDB8276625A0E965 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m */,
+				A6F84725F2D734B28EAF6E69 /* Support Files */,
+				D4F029A73D740C1A2BCA10AE /* extobjc */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		63CACD9748E9838881DEB773 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				26F2E0908D44C3E3016D05A1 /* AFNetworking.h */,
+				86C8CDBB0EA0E994667862EB /* NSURLConnection */,
+				9A9C1FAE2A27B6537B380EAC /* NSURLSession */,
+				F0C3809C7C851E674CBF09B2 /* Reachability */,
+				87CB74746D08A2EDB6441EDE /* Security */,
+				1C27378C437E2C40D07A1E0F /* Serialization */,
+				E52FA59EBA4F3A372B6A086C /* Support Files */,
+				F4B6F7CDCE02BFC20180CE98 /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		86C8CDBB0EA0E994667862EB /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				99690E5C98143BA089206774 /* AFHTTPRequestOperation.h */,
+				34318AAC5C3521391F99FA0C /* AFHTTPRequestOperation.m */,
+				C9EB04036AF34590732A9011 /* AFHTTPRequestOperationManager.h */,
+				CE834F1EA0D74B09A1FC18B6 /* AFHTTPRequestOperationManager.m */,
+				6D694F3EE3851594DCE25D27 /* AFURLConnectionOperation.h */,
+				3C9E4319E7561BA593B73A65 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		87CB74746D08A2EDB6441EDE /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				6B78469D4AA93C13BE71A1E8 /* AFSecurityPolicy.h */,
+				E52E3003F63753B0D920F457 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		987F33C600D1F93A9D1E3469 /* Pods-TurkcellDeviceList */ = {
+			isa = PBXGroup;
+			children = (
+				60E63E86B5EF983944E6CE16 /* Info.plist */,
+				6286D830211A87CC64B1EA67 /* Pods-TurkcellDeviceList.modulemap */,
+				40860EB30D6B87C553FBB1E7 /* Pods-TurkcellDeviceList-acknowledgements.markdown */,
+				B5B2DB3AFE975890352C07B7 /* Pods-TurkcellDeviceList-acknowledgements.plist */,
+				8971062BD3618C6159BC6E83 /* Pods-TurkcellDeviceList-dummy.m */,
+				38F669C890C07F585BF79843 /* Pods-TurkcellDeviceList-environment.h */,
+				FDCF76DF22031070C9CBF261 /* Pods-TurkcellDeviceList-frameworks.sh */,
+				24CE52AD81BAF108DCAEFA55 /* Pods-TurkcellDeviceList-resources.sh */,
+				B002D7368569C8B25CF3BB74 /* Pods-TurkcellDeviceList-umbrella.h */,
+				FA521946D3059D9D69A4EA3A /* Pods-TurkcellDeviceList.debug.xcconfig */,
+				E2FC243AB89892B03A7A1707 /* Pods-TurkcellDeviceList.release.xcconfig */,
+			);
+			name = "Pods-TurkcellDeviceList";
+			path = "Target Support Files/Pods-TurkcellDeviceList";
+			sourceTree = "<group>";
+		};
+		9A9C1FAE2A27B6537B380EAC /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				BB30836D1CBBC54787CBB052 /* AFHTTPSessionManager.h */,
+				A990DDF097D9003549E8996E /* AFHTTPSessionManager.m */,
+				AB85989355B103D9E3367F91 /* AFURLSessionManager.h */,
+				221F64D521B95117AACE2318 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		9AB5AC8E8CFA0CB5EA1E5323 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BB7D6606C70A39C88BFF9BA /* AFNetworking.framework */,
+				59B04B4C888031CF1BD3597A /* FLKAutoLayout.framework */,
+				F11332977DA6333D125C928A /* Mantle.framework */,
+				8AC02C49D98622F4E5C0C2AF /* ORStackView.framework */,
+				279E915BC19EEB07F75BB64E /* Pods_TurkcellDeviceList.framework */,
+				E214B120BA1AF003087B8DEF /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F84725F2D734B28EAF6E69 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24743D880725EDE5D2299425 /* Info.plist */,
+				33E625701E8F21BF93B47DCE /* Pods-TurkcellDeviceList-Mantle.modulemap */,
+				2D6F03AB7E0EA0E189FD3494 /* Pods-TurkcellDeviceList-Mantle.xcconfig */,
+				FD746C2128FF27B59E3F2F19 /* Pods-TurkcellDeviceList-Mantle-Private.xcconfig */,
+				B07714DEC32645AFB5C8DCF3 /* Pods-TurkcellDeviceList-Mantle-dummy.m */,
+				3B518C42374C368F1B168FF4 /* Pods-TurkcellDeviceList-Mantle-prefix.pch */,
+				0865E93AFDA9BA681C18DD32 /* Pods-TurkcellDeviceList-Mantle-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TurkcellDeviceList-Mantle";
+			sourceTree = "<group>";
+		};
+		B520AA05550A1399D1F1195F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2938179CDB5DEBEDF35C09D9 /* Info.plist */,
+				F016903D0CD78726B40A7DB9 /* Pods-TurkcellDeviceList-SwiftyJSON.modulemap */,
+				A96DB9EF1CBE0B6574729A5B /* Pods-TurkcellDeviceList-SwiftyJSON.xcconfig */,
+				0F56806F74BEA0FEDEAFD544 /* Pods-TurkcellDeviceList-SwiftyJSON-Private.xcconfig */,
+				355C04867EA262EB3F3B0480 /* Pods-TurkcellDeviceList-SwiftyJSON-dummy.m */,
+				6D42F3A90F5797BC20C26640 /* Pods-TurkcellDeviceList-SwiftyJSON-prefix.pch */,
+				3374548BF5BB6185C0053C73 /* Pods-TurkcellDeviceList-SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		B5DA3078126A1BEBD6F8DA2C /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				239B5FFF5E643FCEAB33C890 /* SwiftyJSON.swift */,
+				B520AA05550A1399D1F1195F /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		B7DDC3B449C40A8FB904C864 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				520B1D03CF8B5E9CEF86CE16 /* Info.plist */,
+				30F5BA624EF5D4250CA8CB8C /* Pods-TurkcellDeviceList-FLKAutoLayout.modulemap */,
+				0665161342AABBA52B744C4F /* Pods-TurkcellDeviceList-FLKAutoLayout.xcconfig */,
+				2547168528CA2BA94EA1227A /* Pods-TurkcellDeviceList-FLKAutoLayout-Private.xcconfig */,
+				477FCA3BDB35029E46409E68 /* Pods-TurkcellDeviceList-FLKAutoLayout-dummy.m */,
+				69D500E0F1AE0A81F7FFEAC5 /* Pods-TurkcellDeviceList-FLKAutoLayout-prefix.pch */,
+				049BD43C6B852B86FF9E0E45 /* Pods-TurkcellDeviceList-FLKAutoLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout";
+			sourceTree = "<group>";
+		};
+		C22D837108E6E8A7D670CC64 /* ORStackView */ = {
+			isa = PBXGroup;
+			children = (
+				2B3DE11026F003C05C5A44BA /* ORSplitStackView.h */,
+				7F8EEA6D06BECE69EC4F8DFE /* ORSplitStackView.m */,
+				B276F922325940B9AE20062F /* ORStackScrollView.h */,
+				0E2E76935B78FFDFB7D44EFF /* ORStackScrollView.m */,
+				6AD47D33F072AEF9626A4AF6 /* ORStackView.h */,
+				7E8A8819A4224C0AC6444DF8 /* ORStackView.m */,
+				F5B23701AFAEC10E5B9A4901 /* ORStackView+Private.h */,
+				36B8FE45217C41C7D69B3E4D /* ORStackView+Private.m */,
+				6E5F9639FB75082746BF0AFC /* ORTagBasedAutoStackView.h */,
+				065DF9B38769A026E9E16C6A /* ORTagBasedAutoStackView.m */,
+				F60E7C83DC811B9E7141094B /* Support Files */,
+			);
+			path = ORStackView;
+			sourceTree = "<group>";
+		};
+		D4F029A73D740C1A2BCA10AE /* extobjc */ = {
+			isa = PBXGroup;
+			children = (
+				4748FE990F3A570C8BEC5DCB /* EXTKeyPathCoding.h */,
+				EB08C63C151D5CDCEF8488FD /* EXTRuntimeExtensions.h */,
+				8585EFAF7037FB7338C00716 /* EXTRuntimeExtensions.m */,
+				BA40C174179339B63FDE2970 /* EXTScope.h */,
+				22ED872C24560906AFD95591 /* EXTScope.m */,
+				391128F0A996C5C345DECFF3 /* metamacros.h */,
+			);
+			name = extobjc;
+			sourceTree = "<group>";
+		};
+		D963F8690FDCBD07C21C75BE = {
+			isa = PBXGroup;
+			children = (
+				24CBC8779BDD288E0D8121AF /* Podfile */,
+				0CB3345BDFE0AA6D44920A45 /* Frameworks */,
+				3CF706F6E28FF8C3D50C3AFE /* Pods */,
+				9AB5AC8E8CFA0CB5EA1E5323 /* Products */,
+				F5AFAF7BD3E57D145F4E6D29 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E509C8E97AFE03085E9270BC /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				5987343ECF11CE416CB2F68E /* FLKAutoLayoutPredicateList.h */,
+				4BBB255D3CCAC1004AA1B4F9 /* FLKAutoLayoutPredicateList.m */,
+				988C7B72FFC2BAA9E16BB9BD /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				F0F688346543979C23DA801D /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				F3FD9D681DB598BD739464F1 /* UIView+FLKAutoLayout.h */,
+				57DCD9D0A95B5BEB8FAAAA09 /* UIView+FLKAutoLayout.m */,
+				16A9F87079C00D17622EA900 /* UIView+FLKAutoLayoutDebug.h */,
+				8AAACBEDFC4C368BA6FEDE59 /* UIView+FLKAutoLayoutDebug.m */,
+				AF745F1E422D10C4A492FAA3 /* UIView+FLKAutoLayoutPredicate.h */,
+				DE4B38686C087E68C8EB14AF /* UIView+FLKAutoLayoutPredicate.m */,
+				B7DDC3B449C40A8FB904C864 /* Support Files */,
+			);
+			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		E52FA59EBA4F3A372B6A086C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A3F4F5C397E04CF9A6BF2E0 /* Info.plist */,
+				FEB807A3CDCB515FC36266B8 /* Pods-TurkcellDeviceList-AFNetworking.modulemap */,
+				46735778F3BD4B38EE88DC9C /* Pods-TurkcellDeviceList-AFNetworking.xcconfig */,
+				91831BB458B82F2E0C8C9040 /* Pods-TurkcellDeviceList-AFNetworking-Private.xcconfig */,
+				CEDA69F84A74D85F83C99222 /* Pods-TurkcellDeviceList-AFNetworking-dummy.m */,
+				3B909CA0FBFC9E004C8D9ED2 /* Pods-TurkcellDeviceList-AFNetworking-prefix.pch */,
+				893AF2013BCED13839DE3A03 /* Pods-TurkcellDeviceList-AFNetworking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TurkcellDeviceList-AFNetworking";
+			sourceTree = "<group>";
+		};
+		ED4888CC73F0C33B2DF6C34C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C730C4B303C71C7B68E69A1B /* CoreGraphics.framework */,
+				C058234ADF8391EF6F60A57F /* Foundation.framework */,
+				E3ACED4FA3AEBBDA4C6125E1 /* MobileCoreServices.framework */,
+				E001576C396EDFBD39DC450C /* Security.framework */,
+				FD697F670DFEAAA370FCC1CB /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F0C3809C7C851E674CBF09B2 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8567367E4CC3E78C547BB855 /* AFNetworkReachabilityManager.h */,
+				FDE1CA996B990FDABABCF8E3 /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		F4B6F7CDCE02BFC20180CE98 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				A4E571D395BD20B1A95D30C6 /* AFNetworkActivityIndicatorManager.h */,
+				CC5D1173484C5B538B51FAB2 /* AFNetworkActivityIndicatorManager.m */,
+				00DE359427DA21D0E9A4CB9C /* UIActivityIndicatorView+AFNetworking.h */,
+				3A89F60EBDE9DD3E0D2D2F66 /* UIActivityIndicatorView+AFNetworking.m */,
+				91589EB6A0F89E4EFC9507AD /* UIAlertView+AFNetworking.h */,
+				3834509E3C0C30F8A729559A /* UIAlertView+AFNetworking.m */,
+				A098B8A075122C2473EEAC25 /* UIButton+AFNetworking.h */,
+				E231D6E579568CCEF1B3A212 /* UIButton+AFNetworking.m */,
+				184C8EBBAD2D5053C1F72214 /* UIImageView+AFNetworking.h */,
+				3B7C6580611AF2486C26444E /* UIImageView+AFNetworking.m */,
+				D5DCC55DCD2AA7C2580658B9 /* UIKit+AFNetworking.h */,
+				8F708E3479CAD2E98C7FD0AE /* UIProgressView+AFNetworking.h */,
+				5AD94CB1AA8768329CA651FB /* UIProgressView+AFNetworking.m */,
+				86FC649B4048CE1E4E307D56 /* UIRefreshControl+AFNetworking.h */,
+				7ABCBB6EE3BF70E76DD65B1E /* UIRefreshControl+AFNetworking.m */,
+				0B1EAA7CBBB8DCB998417543 /* UIWebView+AFNetworking.h */,
+				445B657ACF5A76E6A7BE69E4 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		F5AFAF7BD3E57D145F4E6D29 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				987F33C600D1F93A9D1E3469 /* Pods-TurkcellDeviceList */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F60E7C83DC811B9E7141094B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7412D2D48872B315299896CF /* Info.plist */,
+				2A6496E012683C22C95B1C22 /* Pods-TurkcellDeviceList-ORStackView.modulemap */,
+				83481DD06C1A6FFE18FEEA9C /* Pods-TurkcellDeviceList-ORStackView.xcconfig */,
+				91E696E91DA14BE0DF2EF642 /* Pods-TurkcellDeviceList-ORStackView-Private.xcconfig */,
+				FA7FDE21969E606DCDA64F70 /* Pods-TurkcellDeviceList-ORStackView-dummy.m */,
+				E11E8A6492BC812692883F95 /* Pods-TurkcellDeviceList-ORStackView-prefix.pch */,
+				45AD198A6E9E01589CA489AA /* Pods-TurkcellDeviceList-ORStackView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-TurkcellDeviceList-ORStackView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06610797255013380FB0FEA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8709CE327EA6B977D32DF31D /* Pods-TurkcellDeviceList-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F8B191315CDD83D6816B0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67FC412CB9E309DB4F1FFBC7 /* FLKAutoLayoutPredicateList.h in Headers */,
+				DF3B5D1896D7F811883A640A /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				0A00568F96329E25ED483DF7 /* Pods-TurkcellDeviceList-FLKAutoLayout-umbrella.h in Headers */,
+				07E9182EE5042521F25FD5E1 /* UIView+FLKAutoLayout.h in Headers */,
+				B307FCFB4FF13084DA558AE5 /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				17D63ED17D1F89D6C197EE89 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AAD6102B5835EABAA52B79F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AED3950D77252098C6032F /* EXTKeyPathCoding.h in Headers */,
+				6994C39A1FDE44811E394253 /* EXTRuntimeExtensions.h in Headers */,
+				D120161FB84797E4EF5ADBEC /* EXTScope.h in Headers */,
+				AA395FC324A49E0CD0F31A9A /* MTLJSONAdapter.h in Headers */,
+				DB938B4C5027387D4512E777 /* MTLManagedObjectAdapter.h in Headers */,
+				9E901077A1E9850845EFFB3D /* MTLModel+NSCoding.h in Headers */,
+				2F1133DD270CA7880E3088DF /* MTLModel.h in Headers */,
+				46931945CC8500B5A46AB11A /* MTLReflection.h in Headers */,
+				07782D47F4FDE12CD111B826 /* MTLValueTransformer.h in Headers */,
+				A2C5D9966E2858756AAF6EB6 /* Mantle.h in Headers */,
+				3A23F6120BE9EF84981F85E2 /* NSArray+MTLManipulationAdditions.h in Headers */,
+				68B07D6BC05F7ADB488905B7 /* NSDictionary+MTLManipulationAdditions.h in Headers */,
+				19B5FE0263AABB03EC3145A1 /* NSError+MTLModelException.h in Headers */,
+				295E71F1A370C5D26094E5BC /* NSObject+MTLComparisonAdditions.h in Headers */,
+				0CFAF02CE5CD0361724FD467 /* NSValueTransformer+MTLInversionAdditions.h in Headers */,
+				50265902BADE9155ADDFF25D /* NSValueTransformer+MTLPredefinedTransformerAdditions.h in Headers */,
+				96E268B6EE854EABE1350FE6 /* Pods-TurkcellDeviceList-Mantle-umbrella.h in Headers */,
+				9470E0BEFFCCBA6915A12946 /* metamacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		804612CEA39B3777CD5CC683 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD48DD107448DE23C75B7ADD /* Pods-TurkcellDeviceList-SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8C266F9885C540A0ACDC462 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD866D620B82E8C9A24425E6 /* ORSplitStackView.h in Headers */,
+				A87D4F17BE5A07584D848579 /* ORStackScrollView.h in Headers */,
+				798149A23DBB4186617D10C0 /* ORStackView+Private.h in Headers */,
+				AD3A4362A191DDAF23B6190A /* ORStackView.h in Headers */,
+				2D1159C13E4ADC92F10AEF30 /* ORTagBasedAutoStackView.h in Headers */,
+				9DBC0305CB7C0BB030241221 /* Pods-TurkcellDeviceList-ORStackView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD94D959596A102192B88E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ABF0A8281B7ACC98D05AEDA /* AFHTTPRequestOperation.h in Headers */,
+				ECBBCC5C45EE7BBFCD4082A7 /* AFHTTPRequestOperationManager.h in Headers */,
+				F44C4C65E9985DFDE4D43862 /* AFHTTPSessionManager.h in Headers */,
+				A9B4F2D8E51FAF3A627F7A01 /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5E310D609757224E8188EC4F /* AFNetworkReachabilityManager.h in Headers */,
+				029808596849E408DCB84BB9 /* AFNetworking.h in Headers */,
+				CAA9BD088E7475C46CFEA477 /* AFSecurityPolicy.h in Headers */,
+				2A99427BC90472CD40551D0E /* AFURLConnectionOperation.h in Headers */,
+				1F7728B2917C4D1DC9017ECD /* AFURLRequestSerialization.h in Headers */,
+				FC0B7019B6E32381C2302746 /* AFURLResponseSerialization.h in Headers */,
+				3B6BD62BADE6DD41F326F4FF /* AFURLSessionManager.h in Headers */,
+				6E50BA816D3D9B576FA28D82 /* Pods-TurkcellDeviceList-AFNetworking-umbrella.h in Headers */,
+				7ACF3C5DB1E4C36F2EB4D2C1 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				9D967128C1CFACAF290425E4 /* UIAlertView+AFNetworking.h in Headers */,
+				89B9DD51274EF3990A0FF5CC /* UIButton+AFNetworking.h in Headers */,
+				052F2E52E0A1EA2EF4626B1F /* UIImageView+AFNetworking.h in Headers */,
+				749AC7416D46346BAB02E10F /* UIKit+AFNetworking.h in Headers */,
+				FD3DCDC70D29EDCCC723EFE0 /* UIProgressView+AFNetworking.h in Headers */,
+				BD8A59082E35197BAC8A709A /* UIRefreshControl+AFNetworking.h in Headers */,
+				26A65598485ED9535ACC6B8F /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1DD7E9348A31B5FB8058BD5C /* Pods-TurkcellDeviceList-ORStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13114D2F60CE93E354F6683F /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-ORStackView" */;
+			buildPhases = (
+				497C3F00CB1BE1028461CCAB /* Sources */,
+				A0A9E808905EB3941184F288 /* Frameworks */,
+				C8C266F9885C540A0ACDC462 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA8CCCB9B21922FDD490814 /* PBXTargetDependency */,
+			);
+			name = "Pods-TurkcellDeviceList-ORStackView";
+			productName = "Pods-TurkcellDeviceList-ORStackView";
+			productReference = 8AC02C49D98622F4E5C0C2AF /* ORStackView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5A9ECC275610063BE6A61BED /* Pods-TurkcellDeviceList-SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBB7D5426C408C5E4719D5B2 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-SwiftyJSON" */;
+			buildPhases = (
+				911C968046C139DEE1A75F9B /* Sources */,
+				0EC92F30A249834A6DF086FD /* Frameworks */,
+				804612CEA39B3777CD5CC683 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TurkcellDeviceList-SwiftyJSON";
+			productName = "Pods-TurkcellDeviceList-SwiftyJSON";
+			productReference = E214B120BA1AF003087B8DEF /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A473E094163A80E110D6E1B5 /* Pods-TurkcellDeviceList-FLKAutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49AB43BA9BD199AB311A82F3 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-FLKAutoLayout" */;
+			buildPhases = (
+				6CFD0A62FDE4DF21502C9D10 /* Sources */,
+				1C754E172956274DA6E52FB9 /* Frameworks */,
+				36F8B191315CDD83D6816B0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TurkcellDeviceList-FLKAutoLayout";
+			productName = "Pods-TurkcellDeviceList-FLKAutoLayout";
+			productReference = 59B04B4C888031CF1BD3597A /* FLKAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B189C8A0522B2F0162E26458 /* Pods-TurkcellDeviceList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 432A45E81739B97D08497475 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList" */;
+			buildPhases = (
+				791D02EA98F030776B54D7CD /* Sources */,
+				E25A666426A9D15D79F850AB /* Frameworks */,
+				06610797255013380FB0FEA2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E86A0EA870C6A9D14276EA31 /* PBXTargetDependency */,
+				5F018F293A3BF8121504EDBE /* PBXTargetDependency */,
+				2365D4E1BDAEAEC052F3FA78 /* PBXTargetDependency */,
+				C28C6028495B65C0A3701374 /* PBXTargetDependency */,
+				CE08061E7AB11508CDA18782 /* PBXTargetDependency */,
+			);
+			name = "Pods-TurkcellDeviceList";
+			productName = "Pods-TurkcellDeviceList";
+			productReference = 279E915BC19EEB07F75BB64E /* Pods_TurkcellDeviceList.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C5191471490ECB0D7B5143E4 /* Pods-TurkcellDeviceList-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862A9B9713F6CA386A6469A2 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-AFNetworking" */;
+			buildPhases = (
+				38DE4BFD80FA450FC0D5775F /* Sources */,
+				C99829184A5F27185EBCD098 /* Frameworks */,
+				E7BD94D959596A102192B88E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TurkcellDeviceList-AFNetworking";
+			productName = "Pods-TurkcellDeviceList-AFNetworking";
+			productReference = 7BB7D6606C70A39C88BFF9BA /* AFNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DE8330F6E6BCD2CA690C7FA8 /* Pods-TurkcellDeviceList-Mantle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A23AD743AA16203CDDA53BA /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-Mantle" */;
+			buildPhases = (
+				BC2AB7074F31A088FE8007B2 /* Sources */,
+				5CCC06BFC1543B331418EED7 /* Frameworks */,
+				6AAD6102B5835EABAA52B79F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TurkcellDeviceList-Mantle";
+			productName = "Pods-TurkcellDeviceList-Mantle";
+			productReference = F11332977DA6333D125C928A /* Mantle.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D915560502F1F7334C5DAAF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 46771CC0701A0496B6091513 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D963F8690FDCBD07C21C75BE;
+			productRefGroup = 9AB5AC8E8CFA0CB5EA1E5323 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B189C8A0522B2F0162E26458 /* Pods-TurkcellDeviceList */,
+				C5191471490ECB0D7B5143E4 /* Pods-TurkcellDeviceList-AFNetworking */,
+				A473E094163A80E110D6E1B5 /* Pods-TurkcellDeviceList-FLKAutoLayout */,
+				DE8330F6E6BCD2CA690C7FA8 /* Pods-TurkcellDeviceList-Mantle */,
+				1DD7E9348A31B5FB8058BD5C /* Pods-TurkcellDeviceList-ORStackView */,
+				5A9ECC275610063BE6A61BED /* Pods-TurkcellDeviceList-SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DE4BFD80FA450FC0D5775F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0409A8C15B6971C083D28574 /* AFHTTPRequestOperation.m in Sources */,
+				255E7E534CB46F086E40B311 /* AFHTTPRequestOperationManager.m in Sources */,
+				B5E070F646A021FFB649354A /* AFHTTPSessionManager.m in Sources */,
+				4E916B3686EA7005F296D8CC /* AFNetworkActivityIndicatorManager.m in Sources */,
+				B0A02692B43DD9CDCD3C4D73 /* AFNetworkReachabilityManager.m in Sources */,
+				E9806F0F688117D6CA18B5B5 /* AFSecurityPolicy.m in Sources */,
+				E04A7CCFFA2CD2754C095A02 /* AFURLConnectionOperation.m in Sources */,
+				AC935CD0D2CFEED8266730C7 /* AFURLRequestSerialization.m in Sources */,
+				7DDA19558753E4B4DF817953 /* AFURLResponseSerialization.m in Sources */,
+				9C409DB05346E706426CA12E /* AFURLSessionManager.m in Sources */,
+				56D9685364A573597C381D4D /* Pods-TurkcellDeviceList-AFNetworking-dummy.m in Sources */,
+				B3B318A6C4C0AEDEB5B81C0B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				B901D124C4C794ADF1424576 /* UIAlertView+AFNetworking.m in Sources */,
+				D475390118E10C643253693E /* UIButton+AFNetworking.m in Sources */,
+				D2F89B0A254BD7BF8DBED62B /* UIImageView+AFNetworking.m in Sources */,
+				314616B215FA0128F930BC4F /* UIProgressView+AFNetworking.m in Sources */,
+				413DD826862D0BCC25AC25E5 /* UIRefreshControl+AFNetworking.m in Sources */,
+				134FF650865CF419A616E7BF /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497C3F00CB1BE1028461CCAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3228CB0AC0DFF25F887A5E7A /* ORSplitStackView.m in Sources */,
+				65F2E33B319811BD0932F066 /* ORStackScrollView.m in Sources */,
+				DEE0AB7BE2ED84B3BAAFA3D1 /* ORStackView+Private.m in Sources */,
+				9218B9BBCFF8452FF52A698E /* ORStackView.m in Sources */,
+				EF02B4C1EAFB9DB362875536 /* ORTagBasedAutoStackView.m in Sources */,
+				A0154EFB8995A708EB7B4D5A /* Pods-TurkcellDeviceList-ORStackView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CFD0A62FDE4DF21502C9D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D5A0A11E2191791140D4D9B /* FLKAutoLayoutPredicateList.m in Sources */,
+				C064341B0EF544652DFAEAB9 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				9360DE1798C5295D372EB527 /* Pods-TurkcellDeviceList-FLKAutoLayout-dummy.m in Sources */,
+				0F829209D1C0F53182968E67 /* UIView+FLKAutoLayout.m in Sources */,
+				F4AF90E64CEDEFBF266DE9B0 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				88C6DA97532B230D4B31803E /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791D02EA98F030776B54D7CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA7C61CA3C2229CCE7B4887 /* Pods-TurkcellDeviceList-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		911C968046C139DEE1A75F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				917B1F959B19F35F03706B77 /* Pods-TurkcellDeviceList-SwiftyJSON-dummy.m in Sources */,
+				1FEFFD15D2D40DC3A87C0788 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC2AB7074F31A088FE8007B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED341859177CB9139C622580 /* EXTRuntimeExtensions.m in Sources */,
+				3458D9D3F5C47C5522956FB9 /* EXTScope.m in Sources */,
+				8CE1F6F856393E3C153FC7E2 /* MTLJSONAdapter.m in Sources */,
+				C5FA0943F6F91F47884E545B /* MTLManagedObjectAdapter.m in Sources */,
+				5C7A01525E37E4083A534C40 /* MTLModel+NSCoding.m in Sources */,
+				383707EFB6A1584E4FF08190 /* MTLModel.m in Sources */,
+				828E9F15E1918C19ABBB750A /* MTLReflection.m in Sources */,
+				152606618BFE673919CBD416 /* MTLValueTransformer.m in Sources */,
+				E430B5C721C92375B09DADD2 /* NSArray+MTLManipulationAdditions.m in Sources */,
+				90870B83B5E2E5BCCBBA2C55 /* NSDictionary+MTLManipulationAdditions.m in Sources */,
+				A3AE01FD2A47B26B8F67E1CF /* NSError+MTLModelException.m in Sources */,
+				23BED9F184D407C6987D8F2D /* NSObject+MTLComparisonAdditions.m in Sources */,
+				BC487973FFFF31B8F3B7B066 /* NSValueTransformer+MTLInversionAdditions.m in Sources */,
+				679B1001878D08509B8ACF57 /* NSValueTransformer+MTLPredefinedTransformerAdditions.m in Sources */,
+				FEFD30C0B240287643ED3E85 /* Pods-TurkcellDeviceList-Mantle-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2365D4E1BDAEAEC052F3FA78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkcellDeviceList-Mantle";
+			target = DE8330F6E6BCD2CA690C7FA8 /* Pods-TurkcellDeviceList-Mantle */;
+			targetProxy = AF4135481091081B82AF723D /* PBXContainerItemProxy */;
+		};
+		5F018F293A3BF8121504EDBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkcellDeviceList-FLKAutoLayout";
+			target = A473E094163A80E110D6E1B5 /* Pods-TurkcellDeviceList-FLKAutoLayout */;
+			targetProxy = E53B6D453A7383AD7E8AF5AA /* PBXContainerItemProxy */;
+		};
+		AFA8CCCB9B21922FDD490814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkcellDeviceList-FLKAutoLayout";
+			target = A473E094163A80E110D6E1B5 /* Pods-TurkcellDeviceList-FLKAutoLayout */;
+			targetProxy = 214E129200B249033ABF9853 /* PBXContainerItemProxy */;
+		};
+		C28C6028495B65C0A3701374 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkcellDeviceList-ORStackView";
+			target = 1DD7E9348A31B5FB8058BD5C /* Pods-TurkcellDeviceList-ORStackView */;
+			targetProxy = A767F558D9D51D8714554B5B /* PBXContainerItemProxy */;
+		};
+		CE08061E7AB11508CDA18782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkcellDeviceList-SwiftyJSON";
+			target = 5A9ECC275610063BE6A61BED /* Pods-TurkcellDeviceList-SwiftyJSON */;
+			targetProxy = DE44B8F3E747A1079093F970 /* PBXContainerItemProxy */;
+		};
+		E86A0EA870C6A9D14276EA31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TurkcellDeviceList-AFNetworking";
+			target = C5191471490ECB0D7B5143E4 /* Pods-TurkcellDeviceList-AFNetworking */;
+			targetProxy = 671F76D57737C9E1B1921E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A15A4BFA587AE0D38BA68A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F56806F74BEA0FEDEAFD544 /* Pods-TurkcellDeviceList-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON/Pods-TurkcellDeviceList-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON/Pods-TurkcellDeviceList-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34129F0B4200521A9BBCBB35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		54164C426E388A8F072CDA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91831BB458B82F2E0C8C9040 /* Pods-TurkcellDeviceList-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-AFNetworking/Pods-TurkcellDeviceList-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-AFNetworking/Pods-TurkcellDeviceList-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58F9E3A4F42EE2C2B90B4CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6540D2E50963A735FAA3DD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E696E91DA14BE0DF2EF642 /* Pods-TurkcellDeviceList-ORStackView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-ORStackView/Pods-TurkcellDeviceList-ORStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-ORStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-ORStackView/Pods-TurkcellDeviceList-ORStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ORStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B27B184B5B9BBC5FCAB833D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91831BB458B82F2E0C8C9040 /* Pods-TurkcellDeviceList-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-AFNetworking/Pods-TurkcellDeviceList-AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-AFNetworking/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-AFNetworking/Pods-TurkcellDeviceList-AFNetworking.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82B2D8E47C07AAB1C5AD430B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2547168528CA2BA94EA1227A /* Pods-TurkcellDeviceList-FLKAutoLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout/Pods-TurkcellDeviceList-FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout/Pods-TurkcellDeviceList-FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92867514E4E4DA01BC21ED38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E696E91DA14BE0DF2EF642 /* Pods-TurkcellDeviceList-ORStackView-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-ORStackView/Pods-TurkcellDeviceList-ORStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-ORStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-ORStackView/Pods-TurkcellDeviceList-ORStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ORStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1103D42F959F0055C77563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD746C2128FF27B59E3F2F19 /* Pods-TurkcellDeviceList-Mantle-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-Mantle/Pods-TurkcellDeviceList-Mantle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-Mantle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-Mantle/Pods-TurkcellDeviceList-Mantle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Mantle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADD30BA255257853D665EB8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2547168528CA2BA94EA1227A /* Pods-TurkcellDeviceList-FLKAutoLayout-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout/Pods-TurkcellDeviceList-FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-FLKAutoLayout/Pods-TurkcellDeviceList-FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7E3E20CAF35AFF514656421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2FC243AB89892B03A7A1707 /* Pods-TurkcellDeviceList.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList/Pods-TurkcellDeviceList.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TurkcellDeviceList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD9CDE62CFAF94ED7A7EB27C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA521946D3059D9D69A4EA3A /* Pods-TurkcellDeviceList.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList/Pods-TurkcellDeviceList.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TurkcellDeviceList;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2C85545B5E1ED506EFE17BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F56806F74BEA0FEDEAFD544 /* Pods-TurkcellDeviceList-SwiftyJSON-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON/Pods-TurkcellDeviceList-SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-SwiftyJSON/Pods-TurkcellDeviceList-SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EFB43E367BD543FEA1533660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD746C2128FF27B59E3F2F19 /* Pods-TurkcellDeviceList-Mantle-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-TurkcellDeviceList-Mantle/Pods-TurkcellDeviceList-Mantle-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-TurkcellDeviceList-Mantle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TurkcellDeviceList-Mantle/Pods-TurkcellDeviceList-Mantle.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Mantle;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13114D2F60CE93E354F6683F /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-ORStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6540D2E50963A735FAA3DD16 /* Debug */,
+				92867514E4E4DA01BC21ED38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A23AD743AA16203CDDA53BA /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-Mantle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB43E367BD543FEA1533660 /* Debug */,
+				9E1103D42F959F0055C77563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		432A45E81739B97D08497475 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9CDE62CFAF94ED7A7EB27C /* Debug */,
+				B7E3E20CAF35AFF514656421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46771CC0701A0496B6091513 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34129F0B4200521A9BBCBB35 /* Debug */,
+				58F9E3A4F42EE2C2B90B4CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49AB43BA9BD199AB311A82F3 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-FLKAutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD30BA255257853D665EB8C /* Debug */,
+				82B2D8E47C07AAB1C5AD430B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862A9B9713F6CA386A6469A2 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54164C426E388A8F072CDA6B /* Debug */,
+				6B27B184B5B9BBC5FCAB833D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBB7D5426C408C5E4719D5B2 /* Build configuration list for PBXNativeTarget "Pods-TurkcellDeviceList-SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A15A4BFA587AE0D38BA68A8 /* Debug */,
+				E2C85545B5E1ED506EFE17BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D915560502F1F7334C5DAAF3 /* Project object */;
+}
